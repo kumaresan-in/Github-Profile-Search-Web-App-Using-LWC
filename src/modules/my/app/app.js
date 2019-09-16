@@ -1,7 +1,6 @@
 import { LightningElement, track } from 'lwc';
 
-const QUERY_URL =
-    'https://api.github.com/search/users?q=';
+const QUERY_URL = 'https://api.github.com/search/users?q=';
 
 export default class MiscRestCall extends LightningElement {
     @track searchKey = 'Kumaresan';
@@ -13,7 +12,6 @@ export default class MiscRestCall extends LightningElement {
 
         fetch(QUERY_URL + this.searchKey)
             .then(response => {
-
                 if (!response.ok) {
                     this.error = response;
                 }

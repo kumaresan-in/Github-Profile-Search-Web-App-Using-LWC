@@ -1,8 +1,7 @@
-.search{
+.search {
     text-align: center;
- 
 }
-.search input{
+.search input {
     border-radius: 41px;
     height: 50px;
     padding: 10px;
@@ -11,11 +10,11 @@
 }
 .search input:focus,
 .search input:active,
-.search input:hover{
+.search input:hover {
     background: transparent;
     outline-color: transparent;
 }
-.search-results{
+.search-results {
     border: 1px solid #9e9e9e38;
     height: 70px;
     width: 300px;
@@ -23,18 +22,17 @@
     display: inline-block;
     margin: 10px;
 }
-.search-results p{
+.search-results p {
     font-size: 20px;
     margin-left: 10px;
     display: inline-block;
     text-transform: capitalize;
 }
-.search-results img{
+.search-results img {
     height: 50px;
     width: auto;
     border-radius: 50px;
     float: right;
     margin-top: 10px;
     margin-right: 10px;
-
 }
