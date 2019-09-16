@@ -1,0 +1,21 @@
+<template>
+    
+    <div class="search">
+            <input type="text" name="name"  placeholder="Search" onchange={handleSearchKeyChange}>
+    </div>
+
+    <div if:true={profiles}>
+            <ul>
+                    <template for:each={profiles.items} for:item="profile">
+                                <div key={profile.id} class="search-results">
+                                       <p>{profile.login}</p> 
+                                        <img src={profile.avatar_url} alt="" >
+                                       
+                                </div> 
+                    
+                    </template>
+                </ul>
+
+    </div>
+
+</template>
