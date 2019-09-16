@@ -1,6 +1,6 @@
 # Github Profile Search App using Github Api
 
-<img src="github-lwc" alt="githubapp">
+<img src="github-lwc.gif" alt="githubapp">
 Here will be some information about the app.
 
 ## How to start?
