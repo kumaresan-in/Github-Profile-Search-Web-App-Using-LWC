@@ -4,7 +4,7 @@
     "author": "Kumaresan",
     "bugs": "https://github.com//github-api/issues",
     "dependencies": {
-        "lwc-services": "^1.2.2"
+        "lwc-services": "^1.3.12"
     },
     "devDependencies": {
         "husky": "^2.7.0",
